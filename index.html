@@ -73,8 +73,8 @@
 
               <h1 class="mb-4">
                 Empower Your<br>
-                <span class="accent-text">Digital Journey</span>
-              </h1>
+                <span id="typed-text" class="accent-text"></span>
+             </h1>             
 
               <p class="mb-4 mb-md-5">
                 We believe every great idea deserves to thrive in the digital world,<Br> 
@@ -188,9 +188,9 @@
               <div class="row gy-4">
                 <div class="col-lg-5">
                   <div class="profile d-flex align-items-center gap-3">
-                    <img src="assets/img/avatar-1.webp" alt="CEO Profile" class="profile-image">
+                    <img src="assets/img/logothum.png" alt="CEO Profile" class="profile-image">
                     <div>
-                      <h4 class="profile-name">Mohamed Afridi</h4>
+                      <h4 class="profile-name">Go-On Digiworks</h4>
                       <p class="profile-position"></p>
                     </div>
                   </div>
@@ -971,6 +971,28 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var typed = new Typed("#typed-text", {
+        strings: ["Digital Journey",
+        "Business Growth",
+        "Brand Identity",
+        "Online Presence",
+        "Success Story",
+        "Creative Solutions",
+        "Future Innovation"], // Add more words if needed
+        typeSpeed: 80, // Speed of typing
+        backSpeed: 40, // Speed of deleting
+        startDelay: 300, // Delay before starting
+        backDelay: 1500, // Delay before deleting
+        loop: true // Infinite loop animation
+      });
+    });
+  </script>
+  
+
 
 </body>
 
